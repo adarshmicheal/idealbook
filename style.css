@@ -12,16 +12,17 @@ body{
     width: 100vw;
     height: 100vh;
     background: linear-gradient(to top left,rgb(56, 183, 206),pink);
+   
 }
-.outer-box h2{
+.outer-box span{
     font-size: 30px;
     font-family:  sans-serif;
-    color: rgb(235, 113, 134);
-    text-align: end;
+    color: rgb(238, 12, 50);
+    font-weight: bold;
     padding: 20px 20px 0px 0px;
     cursor: pointer;
 }
-.outer-box h2:hover{
+.outer-box span:hover{
     color: rgb(238, 12, 50);
 }
 .inner-box{
@@ -36,10 +37,10 @@ body{
     /* backdrop-filter: blur(4px); */
     border-radius: 8px;
     box-shadow: 2px 2px 5px  rgb(221, 55, 83);
-    z-index: 1;
+    z-index: 2;
 }
 .signup-header h1{
-    font-size: 2.5rem;
+    font-size: 40px;
     color: rgb(221, 55, 83);
     text-align: center;
 }
@@ -82,10 +83,10 @@ body{
     height: 100px;
     border-radius: 50px;
     background: linear-gradient(to top right,rgb(37, 140, 158),white);
-    position: absolute;
+    position: absolute; 
 }
 .c1{
-    top: 100px;
+    top: 50px;
     left: 40px;
 
 }
